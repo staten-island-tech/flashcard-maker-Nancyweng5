@@ -14,3 +14,8 @@ def load_flashcard():
 
 def teacher_mode():
     flashcards = load_flashcard()
+    while True:
+        term = input("Enter a word or phrase : ")
+        definition = input(f"Enter a definition for {term}")
+        flashcards[term] = definition
+    
