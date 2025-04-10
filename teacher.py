@@ -22,8 +22,5 @@ def teacher_mode():
         definition = input(f"Enter a definition for {term}: ")
         flashcards[term] = definition
     save_flashcard(flashcards)  
-    
+
 teacher_mode()
-
-
-    
